@@ -53,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/House_SQ2_Ending.unity
     guid: d2c73fd1e6178c044910227529733896
+  - enabled: 1
+    path: Assets/House_SQ4.unity
+    guid: 769af5d4dc7fa31458d3ff123fd8bf56
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
