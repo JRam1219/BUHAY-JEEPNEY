@@ -26,6 +26,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Store/Store_SQ1.unity
     guid: 09422dbfa17ac0e4091c6dd94ec03562
+  - enabled: 1
+    path: Assets/House_SQ2.unity
+    guid: 4bf0e2b6ea537164b9e02494f50a19b1
+  - enabled: 1
+    path: Assets/Scenes/Garage/Garage_SQ2.unity
+    guid: 231954f300815ed408ad16360b760361
+  - enabled: 1
+    path: Assets/Scenes/GasStation/GasStation_SQ2.unity
+    guid: 0c4c175e61d5fd045af39c5a867ef54c
+  - enabled: 1
+    path: Assets/Scenes/Driving/Driving_SQ2.unity
+    guid: 87968783776498d498e82f3a0dfdc5f0
+  - enabled: 1
+    path: Assets/Scenes/Garage/InsideGarage_SQ2.unity
+    guid: 03e19a2256a53bd4abb07295c4e2f566
+  - enabled: 1
+    path: Assets/House_SQ2_Ending.unity
+    guid: d2c73fd1e6178c044910227529733896
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
