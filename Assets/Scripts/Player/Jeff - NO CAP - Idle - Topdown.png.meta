@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 6a9a4f5488685bd4ca8c4f419acca798
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5757802115140366871
+    second: Jeff - NO CAP - Idle - Topdown_0
+  - first:
+      213: 79177651790305767
+    second: Jeff - NO CAP - Idle - Topdown_1
+  - first:
+      213: -4064577834039074541
+    second: Jeff - NO CAP - Idle - Topdown_2
+  - first:
+      213: 6750217059913174308
+    second: Jeff - NO CAP - Idle - Topdown_3
+  - first:
+      213: 166407386348682581
+    second: Jeff - NO CAP - Idle - Topdown_4
+  - first:
+      213: 1205250210308864426
+    second: Jeff - NO CAP - Idle - Topdown_5
+  - first:
+      213: 3898239610040859605
+    second: Jeff - NO CAP - Idle - Topdown_6
+  - first:
+      213: 8347837587440250670
+    second: Jeff - NO CAP - Idle - Topdown_7
+  - first:
+      213: 1442422711815000911
+    second: Jeff - NO CAP - Idle - Topdown_8
+  - first:
+      213: 8472291012830400073
+    second: Jeff - NO CAP - Idle - Topdown_9
+  - first:
+      213: 1292892984836562840
+    second: Jeff - NO CAP - Idle - Topdown_10
+  - first:
+      213: -8914607389824710176
+    second: Jeff - NO CAP - Idle - Topdown_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 98
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc0108b7d2810b0800000000000000
+      internalID: -5757802115140366871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 98
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e95c11a7ab491100800000000000000
+      internalID: 79177651790305767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 98
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311ac28bef7b797c0800000000000000
+      internalID: -4064577834039074541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 66
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c6fe8a2492c884f933846c3cb90153
+      internalID: 6750217059913174308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 66
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020ffb652a94cc49ade049cea85d19f
+      internalID: 166407386348682581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 66
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f660bc72c6eb6f94abe03cb55707a858
+      internalID: 1205250210308864426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 34
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1ffd8dddfcc474f8b618385212da7a
+      internalID: 3898239610040859605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fb2ea8f8334fb4888643f9847851db
+      internalID: 8347837587440250670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 34
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17424bf71cd2f44fb7942326c21a3f4
+      internalID: 1442422711815000911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3326354df351140914c5b8c1004b3c
+      internalID: 8472291012830400073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 3
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da311cf02dabd19459e91bfa8eee68e5
+      internalID: 1292892984836562840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jeff - NO CAP - Idle - Topdown_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0b2d9732bacdb4a81ef55662a30bc8
+      internalID: -8914607389824710176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a5b171a769ff81468b0fb1b55e62336
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Jeff - NO CAP - Idle - Topdown_0: -5757802115140366871
+      Jeff - NO CAP - Idle - Topdown_1: 79177651790305767
+      Jeff - NO CAP - Idle - Topdown_10: 1292892984836562840
+      Jeff - NO CAP - Idle - Topdown_11: -8914607389824710176
+      Jeff - NO CAP - Idle - Topdown_2: -4064577834039074541
+      Jeff - NO CAP - Idle - Topdown_3: 6750217059913174308
+      Jeff - NO CAP - Idle - Topdown_4: 166407386348682581
+      Jeff - NO CAP - Idle - Topdown_5: 1205250210308864426
+      Jeff - NO CAP - Idle - Topdown_6: 3898239610040859605
+      Jeff - NO CAP - Idle - Topdown_7: 8347837587440250670
+      Jeff - NO CAP - Idle - Topdown_8: 1442422711815000911
+      Jeff - NO CAP - Idle - Topdown_9: 8472291012830400073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
