@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/House_SQ1.unity
+    path: Assets/Scenes/House/House_SQ1.unity
     guid: 794552f7803a2bb448306e270e8d4e81
   - enabled: 1
     path: Assets/Scenes/GasStation/GasStation_SQ1.unity
@@ -26,6 +26,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Store/Store_SQ1.unity
     guid: 09422dbfa17ac0e4091c6dd94ec03562
+  - enabled: 1
+    path: Assets/Scenes/House/SCN_Sq5_Scn_1.unity
+    guid: 4687bd65c261f5442af3cf045170bd7a
+  - enabled: 1
+    path: Assets/Scenes/Garage/SCN_Sq5_Scn2.unity
+    guid: af0415fc2de15284cba1df457dfc2f68
+  - enabled: 1
+    path: Assets/Scenes/GasStation/SCN_Sq5_Scn3.unity
+    guid: bf09999d72a31e44da1780fc728d54ab
+  - enabled: 1
+    path: Assets/Scenes/Driving/SCN_Sq5_Scn4.unity
+    guid: 20f3a81d9eca3e94faf4dc757199908f
+  - enabled: 1
+    path: Assets/Scenes/Garage/SCN_Sq5_Scn5.unity
+    guid: 4de865682d461644e95e7e76e270c030
+  - enabled: 1
+    path: Assets/Scenes/Hospital/SCN_Sq5_Scn6.unity
+    guid: 6159c04ca41d1b44d9572295b526f20c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

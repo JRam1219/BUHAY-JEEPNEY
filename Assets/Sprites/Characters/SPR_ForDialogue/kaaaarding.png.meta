@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: e47e18f9bcd01a3458c11e03ed8e9587
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7831529355887583336
+    second: kaaaarding_0
+  - first:
+      213: -6697278381849851227
+    second: kaaaarding_1
+  - first:
+      213: 2957488262701307956
+    second: kaaaarding_2
+  - first:
+      213: -8265208973617184578
+    second: kaaaarding_3
+  - first:
+      213: -7511269845313564711
+    second: kaaaarding_4
+  - first:
+      213: -8478554669676574016
+    second: kaaaarding_5
+  - first:
+      213: 2493609977718261550
+    second: kaaaarding_6
+  - first:
+      213: 2058688207688999561
+    second: kaaaarding_7
+  - first:
+      213: 5183352035923951119
+    second: kaaaarding_8
+  - first:
+      213: -6748238128171276145
+    second: kaaaarding_9
+  - first:
+      213: 3839542073719501786
+    second: kaaaarding_10
+  - first:
+      213: -4561980639488747594
+    second: kaaaarding_11
+  - first:
+      213: 1693729672278233282
+    second: kaaaarding_12
+  - first:
+      213: -1989457807344301540
+    second: kaaaarding_13
+  - first:
+      213: -1077433647627057331
+    second: kaaaarding_14
+  - first:
+      213: 4938679369963258035
+    second: kaaaarding_15
+  - first:
+      213: -6165048951252638677
+    second: kaaaarding_16
+  - first:
+      213: -2880200309106601531
+    second: kaaaarding_17
+  - first:
+      213: -4836072874145559041
+    second: kaaaarding_18
+  - first:
+      213: 2813377440671649189
+    second: kaaaarding_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kaaaarding_0
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1204
+        width: 91
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86029b9b47e2fac60800000000000000
+      internalID: 7831529355887583336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_1
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1230
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aacfef9bcc7e03a0800000000000000
+      internalID: -6697278381849851227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 1203
+        height: 1147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438d2bdc7eb1b0920800000000000000
+      internalID: 2957488262701307956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1171
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb04d2dba341c4d80800000000000000
+      internalID: -8265208973617184578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 401
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df4bf14fdb92c790800000000000000
+      internalID: -7511269845313564711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 409
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cac231037f165a80800000000000000
+      internalID: -8478554669676574016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_6
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 377
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27444220151b9220800000000000000
+      internalID: 2493609977718261550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 365
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982a69a740ee19c10800000000000000
+      internalID: 2058688207688999561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_8
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 363
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e7b0fc637fee740800000000000000
+      internalID: 5183352035923951119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_9
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 361
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88aa961d217952a0800000000000000
+      internalID: -6748238128171276145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 226
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3b73c5c2bc84530800000000000000
+      internalID: 3839542073719501786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 228
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7501f57c690b0c0800000000000000
+      internalID: -4561980639488747594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 194
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0dea5c926518710800000000000000
+      internalID: 1693729672278233282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a8d913aa60464e0800000000000000
+      internalID: -1989457807344301540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47c2245ecf2c01f0800000000000000
+      internalID: -1077433647627057331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0c53288b6b98440800000000000000
+      internalID: 4938679369963258035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 57
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2421b584a8517aa0800000000000000
+      internalID: -6165048951252638677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c11bbd24197708d0800000000000000
+      internalID: -2880200309106601531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 855
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdc6a4f751d2ecb0800000000000000
+      internalID: -4836072874145559041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaaaarding_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 7
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adc45a50ef1b0720800000000000000
+      internalID: 2813377440671649189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kaaaarding_0: 7831529355887583336
+      kaaaarding_1: -6697278381849851227
+      kaaaarding_10: 3839542073719501786
+      kaaaarding_11: -4561980639488747594
+      kaaaarding_12: 1693729672278233282
+      kaaaarding_13: -1989457807344301540
+      kaaaarding_14: -1077433647627057331
+      kaaaarding_15: 4938679369963258035
+      kaaaarding_16: -6165048951252638677
+      kaaaarding_17: -2880200309106601531
+      kaaaarding_18: -4836072874145559041
+      kaaaarding_19: 2813377440671649189
+      kaaaarding_2: 2957488262701307956
+      kaaaarding_3: -8265208973617184578
+      kaaaarding_4: -7511269845313564711
+      kaaaarding_5: -8478554669676574016
+      kaaaarding_6: 2493609977718261550
+      kaaaarding_7: 2058688207688999561
+      kaaaarding_8: 5183352035923951119
+      kaaaarding_9: -6748238128171276145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
