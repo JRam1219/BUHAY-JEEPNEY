@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 563809565}
   - component: {fileID: 563809568}
   - component: {fileID: 563809567}
+  - component: {fileID: 563809569}
   m_Layer: 0
   m_Name: Gas Attendant
   m_TagString: Untagged
@@ -286,7 +287,8 @@ Transform:
   m_LocalPosition: {x: 3.9, y: -1.6, z: 0}
   m_LocalScale: {x: 4.20168, y: 4.05228, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 825934776}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &563809567
@@ -362,6 +364,95 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.20131934, y: 0.063700885}
   m_EdgeRadius: 0
+--- !u!114 &563809569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563809564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c951deba7da62e545a4f34ed854e7c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractPrompt
+  prompt: {fileID: 825934775}
+  target: {fileID: 0}
+  useInteractableRange: 1
+  showRange: 2
+  bobHeight: 0.05
+  bobSpeed: 4
+--- !u!1001 &825934774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 563809566}
+    m_Modifications:
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.016
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5280765342069510075, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+      propertyPath: m_Name
+      value: Prompt_E
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+--- !u!1 &825934775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5280765342069510075, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+  m_PrefabInstance: {fileID: 825934774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &825934776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4040523065221066748, guid: 84a5c9ff0a1f592469031859286a15f0, type: 3}
+  m_PrefabInstance: {fileID: 825934774}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1020078464 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5060470815590278761, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}
