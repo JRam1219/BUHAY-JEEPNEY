@@ -531,12 +531,16 @@ MonoBehaviour:
   conversationLines:
   - speakerName: MARRIELE
     text: Papa! Welcome home!
+    showChoices: 0
   - speakerName: JEFF
     text: "Marielle, ito ang \u20B1200 para sa project mo."
+    showChoices: 0
   - speakerName: MARRIELE
     text: Salamat po, Papa!
+    showChoices: 0
   - speakerName: EMMA
     text: Salamat. Alam kong pinaghirapan mo 'yan.
+    showChoices: 0
 --- !u!114 &310826968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,8 +733,10 @@ MonoBehaviour:
   beforeSleepLines:
   - speakerName: JEFF
     text: Oras na para magpahinga. May panibagong araw na naman bukas.
+    showChoices: 0
   - speakerName: "[NARRATOR]\t"
     text: Jeff lies down and closes his eyes.
+    showChoices: 0
   sleepSpot: {fileID: 1213348586}
   walkSpeed: 2
   lieDownPause: 0.8
@@ -739,7 +745,7 @@ MonoBehaviour:
   endText: {fileID: 0}
   endTextFadeTime: 1.5
   endTextHoldTime: 3
-  nextSceneName: 
+  nextSceneName: House_SQ4
 --- !u!114 &401572189
 MonoBehaviour:
   m_ObjectHideFlags: 0
