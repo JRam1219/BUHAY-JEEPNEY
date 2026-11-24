@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: bedae324c93339245ad3b6e793f44c80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2409740149863932733
+    second: Marielle - Topdown_0
+  - first:
+      213: 6318347017375288397
+    second: Marielle - Topdown_1
+  - first:
+      213: 1282381504660342023
+    second: Marielle - Topdown_2
+  - first:
+      213: -4749345743394494314
+    second: Marielle - Topdown_3
+  - first:
+      213: 4882332928378264984
+    second: Marielle - Topdown_4
+  - first:
+      213: 2613914901360332223
+    second: Marielle - Topdown_5
+  - first:
+      213: -7004710911180822177
+    second: Marielle - Topdown_6
+  - first:
+      213: -9165844434372619158
+    second: Marielle - Topdown_7
+  - first:
+      213: -2452288225102107968
+    second: Marielle - Topdown_8
+  - first:
+      213: 6725934892433707029
+    second: Marielle - Topdown_9
+  - first:
+      213: -11099123449842172
+    second: Marielle - Topdown_10
+  - first:
+      213: -5534077571959672418
+    second: Marielle - Topdown_11
+  - first:
+      213: -7505215091492773715
+    second: Marielle - Topdown_12
+  - first:
+      213: 7628349675683429923
+    second: Marielle - Topdown_13
+  - first:
+      213: 4832935252249734687
+    second: Marielle - Topdown_14
+  - first:
+      213: 995117368481591258
+    second: Marielle - Topdown_15
+  - first:
+      213: -1007510009531807682
+    second: Marielle - Topdown_16
+  - first:
+      213: 8158024545804584889
+    second: Marielle - Topdown_17
+  - first:
+      213: 6368660426699893804
+    second: Marielle - Topdown_18
+  - first:
+      213: -548276740483960160
+    second: Marielle - Topdown_19
+  - first:
+      213: -5358646798654244405
+    second: Marielle - Topdown_20
+  - first:
+      213: 730368424926748382
+    second: Marielle - Topdown_21
+  - first:
+      213: 8611986100096036280
+    second: Marielle - Topdown_22
+  - first:
+      213: 4296260475186792761
+    second: Marielle - Topdown_23
+  - first:
+      213: 5676741171471271667
+    second: Marielle - Topdown_24
+  - first:
+      213: -6615741475180797741
+    second: Marielle - Topdown_25
+  - first:
+      213: -8511956395379059805
+    second: Marielle - Topdown_26
+  - first:
+      213: 3980338798248290622
+    second: Marielle - Topdown_27
+  - first:
+      213: -687366421139109532
+    second: Marielle - Topdown_28
+  - first:
+      213: 2939463707364670115
+    second: Marielle - Topdown_29
+  - first:
+      213: -9176015303787486580
+    second: Marielle - Topdown_30
+  - first:
+      213: 8050892757871859712
+    second: Marielle - Topdown_31
+  - first:
+      213: 3903700482155999373
+    second: Marielle - Topdown_32
+  - first:
+      213: 1263682807572229644
+    second: Marielle - Topdown_33
+  - first:
+      213: -7805266767558115914
+    second: Marielle - Topdown_34
+  - first:
+      213: -2673475061277278147
+    second: Marielle - Topdown_35
+  - first:
+      213: -4856099845933762851
+    second: Marielle - Topdown_36
+  - first:
+      213: 8352952747603813701
+    second: Marielle - Topdown_37
+  - first:
+      213: 4139042017875362207
+    second: Marielle - Topdown_38
+  - first:
+      213: 1403180846199465337
+    second: Marielle - Topdown_39
+  - first:
+      213: -7157692124186914591
+    second: Marielle - Topdown_40
+  - first:
+      213: -5713745416848983009
+    second: Marielle - Topdown_41
+  - first:
+      213: -981290281637135850
+    second: Marielle - Topdown_42
+  - first:
+      213: 1179768624013341925
+    second: Marielle - Topdown_43
+  - first:
+      213: 1735168144652837070
+    second: Marielle - Topdown_44
+  - first:
+      213: -3438817744645231865
+    second: Marielle - Topdown_45
+  - first:
+      213: -6239628906521793378
+    second: Marielle - Topdown_46
+  - first:
+      213: 8759451554192783483
+    second: Marielle - Topdown_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marielle - Topdown_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 19
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc1d5ed912ee8ed0800000000000000
+      internalID: -2409740149863932733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 224
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c8d42e2274fa750800000000000000
+      internalID: 6318347017375288397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 224
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7058fc32f2febc110800000000000000
+      internalID: 1282381504660342023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 223
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6982571a53fe61eb0800000000000000
+      internalID: -4749345743394494314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 223
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ddd2f3ee781c340800000000000000
+      internalID: 4882332928378264984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 223
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdcea0f0cd764420800000000000000
+      internalID: 2613914901360332223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59a3c0f9844ace90800000000000000
+      internalID: -7004710911180822177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 193
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a649ab6bc016cc080800000000000000
+      internalID: -9165844434372619158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 193
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca6aef1ad8b7fdd0800000000000000
+      internalID: -2452288225102107968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5109aed2622575d50800000000000000
+      internalID: 6725934892433707029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 192
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4063471f76198dff0800000000000000
+      internalID: -11099123449842172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 192
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9133e3e4c10333b0800000000000000
+      internalID: -5534077571959672418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 160
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da02cac73ae18d790800000000000000
+      internalID: -7505215091492773715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eb3910d975dd960800000000000000
+      internalID: 7628349675683429923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 160
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1eeec48109021340800000000000000
+      internalID: 4832935252249734687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 164
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfaa2a69fd5fcd00800000000000000
+      internalID: 995117368481591258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 164
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38c43efbfa9402f0800000000000000
+      internalID: -1007510009531807682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 164
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b78991f910273170800000000000000
+      internalID: 8158024545804584889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 129
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ce88c5ae6026850800000000000000
+      internalID: 6368660426699893804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 129
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a238dc95312468f0800000000000000
+      internalID: -548276740483960160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9fd61c02342a5b0800000000000000
+      internalID: -5358646798654244405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 137
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede9bea763ac22a00800000000000000
+      internalID: 730368424926748382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 137
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd63d2dabbe38770800000000000000
+      internalID: 8611986100096036280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_23
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 137
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9394f0eb3226f9b30800000000000000
+      internalID: 4296260475186792761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 105
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6416fc406d7ce40800000000000000
+      internalID: 5676741171471271667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 105
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0a7061e2a2034a0800000000000000
+      internalID: -6615741475180797741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 105
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a311d5b1c47fd980800000000000000
+      internalID: -8511956395379059805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e396b4b5c010d3730800000000000000
+      internalID: 3980338798248290622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 102
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469c87db1ebf576f0800000000000000
+      internalID: -687366421139109532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 102
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aabf9bfaa21bc820800000000000000
+      internalID: 2939463707364670115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 64
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82e234a2be38a080800000000000000
+      internalID: -9176015303787486580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 64
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00897bdce448abf60800000000000000
+      internalID: 8050892757871859712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80fd64e7eabc2630800000000000000
+      internalID: 3903700482155999373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 77
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e6c1671d0898110800000000000000
+      internalID: 1263682807572229644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 77
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd798e9a3f1ea390800000000000000
+      internalID: -7805266767558115914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_35
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 77
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30c3b0b898e5ead0800000000000000
+      internalID: -2673475061277278147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 39
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6f9493beaab9cb0800000000000000
+      internalID: -4856099845933762851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 39
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5456c82a446abe370800000000000000
+      internalID: 8352952747603813701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 39
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9180e129c4d07930800000000000000
+      internalID: 4139042017875362207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 35
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975e9559b89197310800000000000000
+      internalID: 1403180846199465337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_40
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 35
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e05a36afe4caac90800000000000000
+      internalID: -7157692124186914591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_41
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 35
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c33bbe0d2b4b0b0800000000000000
+      internalID: -5713745416848983009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 12
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ab97d10b1c162f0800000000000000
+      internalID: -981290281637135850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_43
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 12
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4777710516f5010800000000000000
+      internalID: 1179768624013341925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 12
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec02b97fb3e841810800000000000000
+      internalID: 1735168144652837070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b6c1b1b7dd640d0800000000000000
+      internalID: -3438817744645231865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 4
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c628881926869a0800000000000000
+      internalID: -6239628906521793378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle - Topdown_47
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7877ea67c2df8970800000000000000
+      internalID: 8759451554192783483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c24a804ee4f8180489077a01f19246df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Marielle - Topdown_0: -2409740149863932733
+      Marielle - Topdown_1: 6318347017375288397
+      Marielle - Topdown_10: -11099123449842172
+      Marielle - Topdown_11: -5534077571959672418
+      Marielle - Topdown_12: -7505215091492773715
+      Marielle - Topdown_13: 7628349675683429923
+      Marielle - Topdown_14: 4832935252249734687
+      Marielle - Topdown_15: 995117368481591258
+      Marielle - Topdown_16: -1007510009531807682
+      Marielle - Topdown_17: 8158024545804584889
+      Marielle - Topdown_18: 6368660426699893804
+      Marielle - Topdown_19: -548276740483960160
+      Marielle - Topdown_2: 1282381504660342023
+      Marielle - Topdown_20: -5358646798654244405
+      Marielle - Topdown_21: 730368424926748382
+      Marielle - Topdown_22: 8611986100096036280
+      Marielle - Topdown_23: 4296260475186792761
+      Marielle - Topdown_24: 5676741171471271667
+      Marielle - Topdown_25: -6615741475180797741
+      Marielle - Topdown_26: -8511956395379059805
+      Marielle - Topdown_27: 3980338798248290622
+      Marielle - Topdown_28: -687366421139109532
+      Marielle - Topdown_29: 2939463707364670115
+      Marielle - Topdown_3: -4749345743394494314
+      Marielle - Topdown_30: -9176015303787486580
+      Marielle - Topdown_31: 8050892757871859712
+      Marielle - Topdown_32: 3903700482155999373
+      Marielle - Topdown_33: 1263682807572229644
+      Marielle - Topdown_34: -7805266767558115914
+      Marielle - Topdown_35: -2673475061277278147
+      Marielle - Topdown_36: -4856099845933762851
+      Marielle - Topdown_37: 8352952747603813701
+      Marielle - Topdown_38: 4139042017875362207
+      Marielle - Topdown_39: 1403180846199465337
+      Marielle - Topdown_4: 4882332928378264984
+      Marielle - Topdown_40: -7157692124186914591
+      Marielle - Topdown_41: -5713745416848983009
+      Marielle - Topdown_42: -981290281637135850
+      Marielle - Topdown_43: 1179768624013341925
+      Marielle - Topdown_44: 1735168144652837070
+      Marielle - Topdown_45: -3438817744645231865
+      Marielle - Topdown_46: -6239628906521793378
+      Marielle - Topdown_47: 8759451554192783483
+      Marielle - Topdown_5: 2613914901360332223
+      Marielle - Topdown_6: -7004710911180822177
+      Marielle - Topdown_7: -9165844434372619158
+      Marielle - Topdown_8: -2452288225102107968
+      Marielle - Topdown_9: 6725934892433707029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

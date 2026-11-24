@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea275cd15a5c79843935246b501aa0e6, type: 3}
+  m_Name: DLG_GasSation-Attendant
+  m_EditorClassIdentifier: Assembly-CSharp::SCR_DialogueData
+  dialogueID: 
+  npcID: 
+  dialogueLines:
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: 'Hey there! 5 liters in diesel please '
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Attendant
+    speakerSide: 1
+    dialogueText: Sure! That will be (amount in pesos but higher)
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: 2945492907746950913, guid: 05fb791b98f069c4db19daa32cdfb38a, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: WHAT? But yesterday it was only (amount in pesos but lower)
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Attendant
+    speakerSide: 1
+    dialogueText: Yeah, many people were shocked too, me included. I don't know what's
+      happening to out town now
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: 2945492907746950913, guid: 05fb791b98f069c4db19daa32cdfb38a, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Attendant
+    speakerSide: 1
+    dialogueText: It's already hard enough as it is, but the sudden oil spike makes
+      everything worse
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: 2945492907746950913, guid: 05fb791b98f069c4db19daa32cdfb38a, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: I know, It'll be hard to make a living with driving if the oil
+      spikes keeps happening
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: And is that the mayor's car?
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Attendant
+    speakerSide: 1
+    dialogueText: Yeah, it's been there since this morning, we don't know why either
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: 2945492907746950913, guid: 05fb791b98f069c4db19daa32cdfb38a, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: Hmm weird, thanks for the gas
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Attendant
+    speakerSide: 1
+    dialogueText: 'No problem! Safe travles '
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: 2945492907746950913, guid: 05fb791b98f069c4db19daa32cdfb38a, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  nameFontSize: 36
