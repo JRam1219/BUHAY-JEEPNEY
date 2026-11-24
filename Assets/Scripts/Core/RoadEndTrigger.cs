@@ -8,6 +8,9 @@ public class RoadEndTrigger : MonoBehaviour
     public DialogueLine[] insufficientMoneyDialogue;
     public string nextSceneName = "";
 
+    [Header("Mission Requirements")]
+    public bool requireMoneyManager = false;
+
     private bool triggered = false;
     private bool waitingForDialogue = false;
 
@@ -16,22 +19,25 @@ public class RoadEndTrigger : MonoBehaviour
         if (triggered || other.GetComponent<JeepMovement>() == null)
             return;
 
-        if (MoneyManager.Instance == null)
+        if (requireMoneyManager)
         {
-            Debug.LogError("MoneyManager is missing!");
-            return;
-        }
-
-        if (!MoneyManager.Instance.HasReachedTarget())
-        {
-            if (DialogueManager.Instance != null &&
-                insufficientMoneyDialogue != null &&
-                insufficientMoneyDialogue.Length > 0)
+            if (MoneyManager.Instance == null)
             {
-                DialogueManager.Instance.StartDialogue(insufficientMoneyDialogue);
+                Debug.LogError("MoneyManager is missing!");
+                return;
             }
 
-            return;
+            if (!MoneyManager.Instance.HasReachedTarget())
+            {
+                if (DialogueManager.Instance != null &&
+                    insufficientMoneyDialogue != null &&
+                    insufficientMoneyDialogue.Length > 0)
+                {
+                    DialogueManager.Instance.StartDialogue(insufficientMoneyDialogue);
+                }
+
+                return;
+            }
         }
 
         triggered = true;

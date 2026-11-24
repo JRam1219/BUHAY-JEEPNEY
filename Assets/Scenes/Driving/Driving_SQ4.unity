@@ -938,6 +938,7 @@ MonoBehaviour:
     text: Kailangan ko pang magsakay ng mga pasahero.
     showChoices: 0
   nextSceneName: InsideGarage_SQ4
+  requireMoneyManager: 1
 --- !u!61 &1091147315
 BoxCollider2D:
   m_ObjectHideFlags: 0

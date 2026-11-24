@@ -331,7 +331,7 @@ MonoBehaviour:
   - speakerName: ATTENDANT
     text: You're already full, Boss. Ingat sa biyahe!
     showChoices: 0
-  refuelDuration: 60
+  refuelDuration: 6
   hasRefueled: 0
 --- !u!61 &563809568
 BoxCollider2D:

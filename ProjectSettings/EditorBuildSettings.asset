@@ -57,6 +57,9 @@ EditorBuildSettings:
     path: Assets/House_SQ4.unity
     guid: 769af5d4dc7fa31458d3ff123fd8bf56
   - enabled: 1
+    path: Assets/Scenes/Garage/Garage_SQ4.unity
+    guid: c42b4864fe537b141b5963020db825db
+  - enabled: 1
     path: Assets/Scenes/GasStation/GasStation_SQ4.unity
     guid: 4f5fafc978d227a44b758ef06ea19e41
   - enabled: 1

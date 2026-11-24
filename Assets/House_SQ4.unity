@@ -1619,7 +1619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8fe845fbdc2df74f84288a767a12a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransition
-  nextSceneName: Garage_SQ2
+  nextSceneName: Garage_SQ4
 --- !u!61 &1031599594
 BoxCollider2D:
   m_ObjectHideFlags: 0
