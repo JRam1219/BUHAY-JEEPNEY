@@ -69,6 +69,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Garage/InsideGarage_SQ4.unity
     guid: 9c41a935ae169854fa6c3faca6a3294d
   - enabled: 1
+    path: Assets/House_SQ4_Ending.unity
+    guid: ff8d2caabc9070844b720ea3e6ceebd3
+  - enabled: 1
     path: Assets/Scenes/House/SCN_Sq5_Scn_1.unity
     guid: 4687bd65c261f5442af3cf045170bd7a
   - enabled: 1
