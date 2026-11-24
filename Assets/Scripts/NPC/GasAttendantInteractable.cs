@@ -1,3 +1,5 @@
+
+using System.Collections;
 using UnityEngine;
 
 public class GasAttendantInteractable : MonoBehaviour
@@ -7,8 +9,11 @@ public class GasAttendantInteractable : MonoBehaviour
     public DialogueLine[] refuelDialogue;
     public DialogueLine[] afterRefuelDialogue;
 
+    public float refuelDuration = 60f;
     public bool hasRefueled = false;
+
     private bool waitingForRefuelToFinish = false;
+    private bool isRefueling = false;
 
     void Update()
     {
@@ -19,15 +24,15 @@ public class GasAttendantInteractable : MonoBehaviour
             if (!DialogueManager.Instance.isDialogueActive)
             {
                 waitingForRefuelToFinish = false;
-                hasRefueled = true;
-                Debug.Log("Diesel tank is full!");
+                StartCoroutine(RefuelJeep());
             }
             return;
         }
 
-        if (DialogueManager.Instance.isDialogueActive) return;
+        if (isRefueling || DialogueManager.Instance.isDialogueActive) return;
 
         float distance = Vector2.Distance(transform.position, jeepPlayer.position);
+
         if (distance <= interactRange && Input.GetKeyDown(KeyCode.E))
         {
             if (!hasRefueled)
@@ -40,5 +45,19 @@ public class GasAttendantInteractable : MonoBehaviour
                 DialogueManager.Instance.StartDialogue(afterRefuelDialogue);
             }
         }
+    }
+
+    IEnumerator RefuelJeep()
+    {
+        isRefueling = true;
+
+        Debug.Log("Refueling started. Please wait 60 seconds.");
+
+        yield return new WaitForSeconds(refuelDuration);
+
+        hasRefueled = true;
+        isRefueling = false;
+
+        Debug.Log("Diesel tank is full!");
     }
 }

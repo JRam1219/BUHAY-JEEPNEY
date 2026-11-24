@@ -2478,6 +2478,98 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1913358289745593479, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}
   m_PrefabInstance: {fileID: 2361025040498279540}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2046414537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046414538}
+  - component: {fileID: 2046414540}
+  - component: {fileID: 2046414539}
+  - component: {fileID: 2046414541}
+  m_Layer: 0
+  m_Name: Bed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046414538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046414537}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.16, y: 0.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2046414539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046414537}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9161261a847bed49887233dbf156139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BedInteractable
+  jeff: {fileID: 0}
+  interactRange: 2
+  canSleep: 1
+  notTiredLines: []
+  beforeSleepLines: []
+  sleepSpot: {fileID: 0}
+  walkSpeed: 2
+  lieDownPause: 0.8
+  fade: {fileID: 0}
+  fadeTime: 2
+  endText: {fileID: 0}
+  endTextFadeTime: 1.5
+  endTextHoldTime: 3
+  nextSceneName: 
+--- !u!114 &2046414540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046414537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c951deba7da62e545a4f34ed854e7c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractPrompt
+  prompt: {fileID: 0}
+  target: {fileID: 0}
+  useInteractableRange: 1
+  showRange: 2
+  bobHeight: 0.05
+  bobSpeed: 4
+--- !u!114 &2046414541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046414537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3c813e425aa82429ca7cba9691726b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WakeUpInteractable
+  jeff: {fileID: 1277526759}
+  interactRange: 2
 --- !u!1001 &1363432737414030024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2817,3 +2909,4 @@ SceneRoots:
   - {fileID: 1363432737414030024}
   - {fileID: 750256338}
   - {fileID: 1031599595}
+  - {fileID: 2046414538}

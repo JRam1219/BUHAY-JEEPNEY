@@ -6,6 +6,9 @@ public class PassengerInteractable : MonoBehaviour
     public float interactRange = 4.5f;
     public DialogueLine[] passengerDialogue;
 
+    [Header("Fare")]
+    public int fareReward = 0;
+
     private bool hasTalked = false;
     private bool waitingForDialogueToFinish = false;
 
@@ -13,12 +16,17 @@ public class PassengerInteractable : MonoBehaviour
     {
         if (DialogueManager.Instance == null || jeepPlayer == null) return;
 
-        // Wait until the dialogue box closes, then make the passenger disappear
         if (waitingForDialogueToFinish)
         {
             if (!DialogueManager.Instance.isDialogueActive)
             {
                 waitingForDialogueToFinish = false;
+
+                if (MoneyManager.Instance != null && fareReward > 0)
+                {
+                    MoneyManager.Instance.AddMoney(fareReward);
+                }
+
                 gameObject.SetActive(false);
             }
             return;
@@ -27,6 +35,7 @@ public class PassengerInteractable : MonoBehaviour
         if (hasTalked || DialogueManager.Instance.isDialogueActive) return;
 
         float distance = Vector2.Distance(transform.position, jeepPlayer.position);
+
         if (distance <= interactRange && Input.GetKeyDown(KeyCode.E))
         {
             hasTalked = true;
