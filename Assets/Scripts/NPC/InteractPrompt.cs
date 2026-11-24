@@ -1,5 +1,6 @@
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Shows a floating "E" above an interactable when the player is in range, hides it during dialogue.
 // Add to the same object as NPCInteractable / JeepInteractable / GasAttendantInteractable /
@@ -14,7 +15,14 @@ public class InteractPrompt : MonoBehaviour
     public float bobHeight = 0.05f;
     public float bobSpeed = 4f;
 
+    [Header("Optional Scene Save")]
+    public bool saveSceneOnInteract = false;
+    public bool saveOnlyOnce = true;
+    public int sequenceNumber = 1;
+    public string sceneNameToSave = "";    // leave blank to save current scene name
+
     Vector3 baseLocalPos;
+    bool hasSaved = false;
 
     void Start()
     {
@@ -56,6 +64,41 @@ public class InteractPrompt : MonoBehaviour
 
         if (prompt.activeSelf != show) prompt.SetActive(show);
         if (show)
+        {
             prompt.transform.localPosition = baseLocalPos + Vector3.up * (Mathf.Sin(Time.time * bobSpeed) * bobHeight);
+
+            if (saveSceneOnInteract && Input.GetKeyDown(KeyCode.E))
+            {
+                if (!saveOnlyOnce || !hasSaved)
+                {
+                    TriggerSceneSave();
+                }
+            }
+        }
+    }
+
+    private void TriggerSceneSave()
+    {
+        if (SupabaseAuthManager.Instance != null &&
+            SupabaseAuthManager.Instance.IsAuthenticated &&
+            SupabaseSaveService.Instance != null)
+        {
+            string targetScene = string.IsNullOrEmpty(sceneNameToSave)
+                ? SceneManager.GetActiveScene().name
+                : sceneNameToSave;
+
+            hasSaved = true;
+
+            SupabaseSaveService.Instance.StartCoroutine(
+                SupabaseSaveService.Instance.SaveSceneProgress(sequenceNumber, targetScene, (ok, msg) =>
+                {
+                    Debug.Log($"[PromptSave] {msg} (Success: {ok})");
+                    if (!ok)
+                    {
+                        hasSaved = false; // allow retry if the request failed
+                    }
+                })
+            );
+        }
     }
 }
