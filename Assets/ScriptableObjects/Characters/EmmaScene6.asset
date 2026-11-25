@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea275cd15a5c79843935246b501aa0e6, type: 3}
+  m_Name: EmmaScene6
+  m_EditorClassIdentifier: Assembly-CSharp::SCR_DialogueData
+  dialogueID: 
+  npcID: 
+  dialogueLines:
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: How's Marielle, Honey?
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Emma
+    speakerSide: 1
+    dialogueText: She's fine but our hospital bill is now 50,000 minimum now
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: -6769428290867566633, guid: d207ff83d56f99547b980d19a25d18ec, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: What?! Why is it so big now? That is unjustifiable!
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: Here's the money, Honey. *gives all his money and keep 1,000 for
+      gas*
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff's Inner Monologue
+    speakerSide: 1
+    dialogueText: I just saw Mayor, What is he doing here? Maybe I should proceed
+      with my plan.
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 25
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: 'Wait, Honey. Something came up, I need to go first. '
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Emma
+    speakerSide: 1
+    dialogueText: Okay, Honey. Please be careful.
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: -6769428290867566633, guid: d207ff83d56f99547b980d19a25d18ec, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  nextDialogue: {fileID: 0}
+  nameFontSize: 36

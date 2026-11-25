@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: cdfe0473040e460489856bf7230a8eb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 976429924805457222
+    second: bluebook_0
+  - first:
+      213: 3860097692810524953
+    second: bluebook_1
+  - first:
+      213: 451096909691267405
+    second: bluebook_2
+  - first:
+      213: 7017492337553715652
+    second: bluebook_3
+  - first:
+      213: 7925796764796864438
+    second: bluebook_4
+  - first:
+      213: 464207476828900803
+    second: bluebook_5
+  - first:
+      213: 8133929399884742544
+    second: bluebook_6
+  - first:
+      213: 1239700515265337065
+    second: bluebook_7
+  - first:
+      213: -1898192775289351156
+    second: bluebook_8
+  - first:
+      213: -2615399962816399237
+    second: bluebook_9
+  - first:
+      213: -5291850327440710249
+    second: bluebook_10
+  - first:
+      213: -502720650562523735
+    second: bluebook_11
+  - first:
+      213: -7200098288064226026
+    second: bluebook_12
+  - first:
+      213: 2132012681834110677
+    second: bluebook_13
+  - first:
+      213: -2212566743499875123
+    second: bluebook_14
+  - first:
+      213: -550262323668850791
+    second: bluebook_15
+  - first:
+      213: 7771894585042718598
+    second: bluebook_16
+  - first:
+      213: 1893881632655739272
+    second: bluebook_17
+  - first:
+      213: 2712714588867733326
+    second: bluebook_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bluebook_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1299
+        height: 1184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6453710e7d9fc8d00800000000000000
+      internalID: 976429924805457222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 659
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919b6426662d19530800000000000000
+      internalID: 3860097692810524953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 631
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49ac65df3e924600800000000000000
+      internalID: 451096909691267405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 601
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13ae9c914236160800000000000000
+      internalID: 7017492337553715652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 568
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b748a73a261efd60800000000000000
+      internalID: 7925796764796864438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_5
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 469
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd877e9d32317600800000000000000
+      internalID: 464207476828900803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_6
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 393
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f7c3c91b581e070800000000000000
+      internalID: 8133929399884742544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 308
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e65248ec0d443110800000000000000
+      internalID: 1239700515265337065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_8
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 241
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c045aa95ab348a5e0800000000000000
+      internalID: -1898192775289351156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_9
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 177
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7832ce379b34bbd0800000000000000
+      internalID: -2615399962816399237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_10
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795ac542a229f86b0800000000000000
+      internalID: -5291850327440710249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_11
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 201
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ada7f95b3af509f0800000000000000
+      internalID: -502720650562523735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 66
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d980831cc141c90800000000000000
+      internalID: -7200098288064226026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 68
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de995dfc3e669d10800000000000000
+      internalID: 2132012681834110677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_14
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccd8dbf4426b41e0800000000000000
+      internalID: -2212566743499875123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_15
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 54
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997ef6005531d58f0800000000000000
+      internalID: -550262323668850791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_16
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 35
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fc045a2f05bdb60800000000000000
+      internalID: 7771894585042718598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 38
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88905198f4b684a10800000000000000
+      internalID: 1893881632655739272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebook_18
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e472b76cb8f75a520800000000000000
+      internalID: 2712714588867733326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bluebook_0: 976429924805457222
+      bluebook_1: 3860097692810524953
+      bluebook_10: -5291850327440710249
+      bluebook_11: -502720650562523735
+      bluebook_12: -7200098288064226026
+      bluebook_13: 2132012681834110677
+      bluebook_14: -2212566743499875123
+      bluebook_15: -550262323668850791
+      bluebook_16: 7771894585042718598
+      bluebook_17: 1893881632655739272
+      bluebook_18: 2712714588867733326
+      bluebook_2: 451096909691267405
+      bluebook_3: 7017492337553715652
+      bluebook_4: 7925796764796864438
+      bluebook_5: 464207476828900803
+      bluebook_6: 8133929399884742544
+      bluebook_7: 1239700515265337065
+      bluebook_8: -1898192775289351156
+      bluebook_9: -2615399962816399237
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

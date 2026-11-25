@@ -14,7 +14,7 @@ public class SCR_GarageDoorBlock : MonoBehaviour
     public float retriggerCooldown = 1.5f;
 
     [Header("Hospital Transition")]
-    public string hospitalSceneName = "SCN_Hospital";
+    public string hospitalSceneName = "SCENE6.SQ6";
     public Image fadeImage;
     public float fadeDuration = 1.5f;
 
@@ -106,6 +106,14 @@ public class SCR_GarageDoorBlock : MonoBehaviour
         }
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(hospitalSceneName);
+
+        if (asyncLoad == null)
+        {
+            Debug.LogError("Cannot load '" + hospitalSceneName +
+                           "'. Add it in File > Build Profiles > Scene List.");
+            yield break;
+        }
+
         while (!asyncLoad.isDone)
         {
             yield return null;

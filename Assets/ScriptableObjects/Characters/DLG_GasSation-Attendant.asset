@@ -98,4 +98,14 @@ MonoBehaviour:
     nameFontSize: 36
     nameTextOffsetX: 50
     nameTextOffsetY: 0
-  nameFontSize: 36
+  - characterName: 'Jeff''s Inner Monologue '
+    speakerSide: 0
+    dialogueText: Why is Mayor talking to the Gas Station Owner? What are they up
+      to? I should take a picture of them *takes picture*
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 25
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  nextDialogue: {fileID: 11400000, guid: 87c3ca5d7ba688246a88e4b9f58c403d, type: 2}
+  nameFontSize: 25

@@ -11,7 +11,7 @@ TagManager:
   - Interactable
   - Water
   - UI
-  - 
+  - Walls
   - 
   - 
   - 
@@ -40,6 +40,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 3096742491
+    locked: 0
+  - name: Jeep
+    uniqueID: 2839256463
+    locked: 0
+  - name: Walls
+    uniqueID: 815544557
     locked: 0
   m_RenderingLayers:
   - Default
