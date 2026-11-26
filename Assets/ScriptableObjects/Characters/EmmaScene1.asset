@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea275cd15a5c79843935246b501aa0e6, type: 3}
+  m_Name: EmmaScene1
+  m_EditorClassIdentifier: Assembly-CSharp::SCR_DialogueData
+  dialogueID: 
+  npcID: 
+  dialogueLines:
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: Honey, Wake Up.
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Emma
+    speakerSide: 1
+    dialogueText: Hmm? Yes, Honey?
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: -6769428290867566633, guid: d207ff83d56f99547b980d19a25d18ec, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 0
+    dialogueText: I have to go now. I need to start my shift so we can pay for Marielle's 
+      hospital expenses.
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Emma
+    speakerSide: 1
+    dialogueText: Okay, Honey. Please be careful on the road. Don't push yourself
+      too hard.
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: -6769428290867566633, guid: d207ff83d56f99547b980d19a25d18ec, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Jeff
+    speakerSide: 1
+    dialogueText: ' You too. Make sure you eat and get some rest. I don''t want you
+      getting sick while taking care of Marielle'
+    leftCharacterPortrait: {fileID: 2959228409216872590, guid: 59b2787c69d3dc142a6d9f396ac81334, type: 3}
+    rightCharacterPortrait: {fileID: 0}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  - characterName: Emma
+    speakerSide: 1
+    dialogueText: Don't worry about me. I'll stay here and watch over her. Just focus
+      on your work and be safe.
+    leftCharacterPortrait: {fileID: 0}
+    rightCharacterPortrait: {fileID: -6769428290867566633, guid: d207ff83d56f99547b980d19a25d18ec, type: 3}
+    nameFontSize: 36
+    nameTextOffsetX: 50
+    nameTextOffsetY: 0
+  nameFontSize: 36

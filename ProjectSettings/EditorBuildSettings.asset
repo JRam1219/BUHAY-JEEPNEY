@@ -89,6 +89,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hospital/SCN_Sq5_Scn6.unity
     guid: 6159c04ca41d1b44d9572295b526f20c
+  - enabled: 1
+    path: Assets/Scenes/Hospital/SCENE1.SQ6.unity
+    guid: b1e17dfd23dbe1f4b9ccd0af0b8048e9
+  - enabled: 1
+    path: Assets/Scenes/Garage/SCENE2.SQ6.unity
+    guid: 40f6fee55913f9a4da176f0f11806a6a
+  - enabled: 1
+    path: Assets/Scenes/GasStation/SCENE3.SQ6.unity
+    guid: cc483405aa93b53438431c4d9957846b
+  - enabled: 1
+    path: Assets/Scenes/Driving/SCENE4.SQ6.unity
+    guid: acaf45a08e004ce458f8d7bf373a8fa7
+  - enabled: 1
+    path: Assets/Scenes/Garage/SCENE5.SQ6.unity
+    guid: d374ac5f1374d3645bdba3b04c87288b
+  - enabled: 1
+    path: Assets/Scenes/Hospital/SCENE6.SQ6.unity
+    guid: 58d7f89e42de8304db3be810daf83c5c
+  - enabled: 1
+    path: Assets/Scenes/MayorHouse/SCENE7.SQ6.unity
+    guid: e43b58ab15239a045a626465977032a9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

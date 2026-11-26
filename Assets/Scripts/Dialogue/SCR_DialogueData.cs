@@ -48,7 +48,7 @@ public class SCR_DialogueLine
 
 // Stores the complete conversation as a ScriptableObject.
 [CreateAssetMenu(fileName = "NewDialogue", menuName = "Dialogue/Dialogue Data")]
-public class SCR_DialogueData: ScriptableObject
+public class SCR_DialogueData : ScriptableObject
 {
     [Header("Dialogue Information")]
 
@@ -61,9 +61,15 @@ public class SCR_DialogueData: ScriptableObject
     // All dialogue lines belonging to this conversation.
     [SerializeField] private SCR_DialogueLine[] dialogueLines;
 
+    [Header("Chaining")]
+
+    // Optional: this dialogue starts automatically when the current one ends.
+    [SerializeField] private SCR_DialogueData nextDialogue;
+
     // Allows other scripts to access the dialogue information.
     public float nameFontSize = 36f;
     public string DialogueID => dialogueID;
     public string NpcId => npcID;
     public SCR_DialogueLine[] DialogueLines => dialogueLines;
+    public SCR_DialogueData NextDialogue => nextDialogue;
 }

@@ -41,7 +41,7 @@ public class SCR_DialogueManager : MonoBehaviour
     private void Awake()
     {
         if (dialogueBox != null)
-        dialogueBox.SetActive(false);
+            dialogueBox.SetActive(false);
     }
 
 
@@ -62,19 +62,17 @@ public class SCR_DialogueManager : MonoBehaviour
     private void Update()
     {
         if (!isDialogueActive)
-        return;
+            return;
 
         if (Keyboard.current == null)
-        return;
+            return;
 
         bool advancePressed =
-        Keyboard.current.spaceKey.wasPressedThisFrame ||
-        Keyboard.current.enterKey.wasPressedThisFrame;
+            Keyboard.current.spaceKey.wasPressedThisFrame ||
+            Keyboard.current.enterKey.wasPressedThisFrame;
 
         if (advancePressed)
         {
-            Debug.Log("Dialogue input detected!");
-
             if (isTyping)
             {
                 // First press: finish typing immediately.
@@ -93,8 +91,8 @@ public class SCR_DialogueManager : MonoBehaviour
     public void StartDialogue(SCR_DialogueData dialogueData)
     {
         if (dialogueData == null ||
-        dialogueData.DialogueLines == null ||
-        dialogueData.DialogueLines.Length == 0)
+            dialogueData.DialogueLines == null ||
+            dialogueData.DialogueLines.Length == 0)
         {
             Debug.LogWarning("Dialogue data is missing or empty.");
             return;
@@ -114,16 +112,17 @@ public class SCR_DialogueManager : MonoBehaviour
         isTyping = false;
 
         if (dialogueBox != null)
-        dialogueBox.SetActive(true);
+            dialogueBox.SetActive(true);
 
         DisplayCurrentLine();
     }
+
 
     // DISPLAY CURRENT DIALOGUE LINE
     private void DisplayCurrentLine()
     {
         if (currentDialogue == null)
-        return;
+            return;
 
         if (currentLineIndex >= currentDialogue.DialogueLines.Length)
         {
@@ -132,25 +131,24 @@ public class SCR_DialogueManager : MonoBehaviour
         }
 
         SCR_DialogueLine line =
-        currentDialogue.DialogueLines[currentLineIndex];
+            currentDialogue.DialogueLines[currentLineIndex];
 
         // SPEAKER NAME
         if (npcNameText != null)
         {
             npcNameText.text = line.characterName;
-            npcNameText.fontSize = line.nameFontSize;
+
             if (line.nameFontSize > 0)
             {
                 npcNameText.fontSize = line.nameFontSize;
             }
 
             RectTransform nameTextRect =
-            npcNameText.GetComponent<RectTransform>();
+                npcNameText.GetComponent<RectTransform>();
 
             if (nameTextRect != null)
             {
-                Vector2 textPosition =
-                nameTextRect.anchoredPosition;
+                Vector2 textPosition = nameTextRect.anchoredPosition;
 
                 textPosition.x = line.nameTextOffsetX;
                 textPosition.y = line.nameTextOffsetY;
@@ -164,7 +162,7 @@ public class SCR_DialogueManager : MonoBehaviour
         if (nameplateRect != null)
         {
             float anchorX =
-            line.speakerSide == SpeakerSide.Left ? 0f : 1f;
+                line.speakerSide == SpeakerSide.Left ? 0f : 1f;
 
             Vector2 minAnchor = nameplateRect.anchorMin;
             Vector2 maxAnchor = nameplateRect.anchorMax;
@@ -180,14 +178,14 @@ public class SCR_DialogueManager : MonoBehaviour
 
             nameplateRect.pivot = pivot;
 
-            Vector2 position =
-            nameplateRect.anchoredPosition;
+            Vector2 position = nameplateRect.anchoredPosition;
 
             position.x =
-            line.speakerSide == SpeakerSide.Left ? 350f : -350f;
+                line.speakerSide == SpeakerSide.Left ? 350f : -350f;
 
             nameplateRect.anchoredPosition = position;
         }
+
 
         // DIALOGUE TEXT
         if (dialogueText != null)
@@ -211,23 +209,21 @@ public class SCR_DialogueManager : MonoBehaviour
         // LEFT PORTRAIT
         if (leftCharacterImage != null)
         {
-            leftCharacterImage.sprite =
-            line.leftCharacterPortrait;
+            leftCharacterImage.sprite = line.leftCharacterPortrait;
 
             leftCharacterImage.gameObject.SetActive(
-            line.leftCharacterPortrait != null
+                line.leftCharacterPortrait != null
             );
         }
 
 
-            // RIGHT PORTRAIT
+        // RIGHT PORTRAIT
         if (rightCharacterImage != null)
         {
-            rightCharacterImage.sprite =
-            line.rightCharacterPortrait;
+            rightCharacterImage.sprite = line.rightCharacterPortrait;
 
             rightCharacterImage.gameObject.SetActive(
-            line.rightCharacterPortrait != null
+                line.rightCharacterPortrait != null
             );
         }
     }
@@ -240,15 +236,14 @@ public class SCR_DialogueManager : MonoBehaviour
 
         dialogueText.ForceMeshUpdate();
 
-        int totalCharacters =
-        dialogueText.textInfo.characterCount;
+        int totalCharacters = dialogueText.textInfo.characterCount;
 
         dialogueText.maxVisibleCharacters = 0;
 
         for (int i = 0; i < totalCharacters; i++)
         {
             if (!isDialogueActive)
-            yield break;
+                yield break;
 
             dialogueText.maxVisibleCharacters = i + 1;
 
@@ -264,11 +259,11 @@ public class SCR_DialogueManager : MonoBehaviour
     }
 
 
-        // SKIP TYPING ANIMATION
+    // SKIP TYPING ANIMATION
     private void ShowFullLine()
     {
         if (dialogueText == null)
-        return;
+            return;
 
         if (typingCoroutine != null)
         {
@@ -279,7 +274,7 @@ public class SCR_DialogueManager : MonoBehaviour
         dialogueText.ForceMeshUpdate();
 
         dialogueText.maxVisibleCharacters =
-        dialogueText.textInfo.characterCount;
+            dialogueText.textInfo.characterCount;
 
         isTyping = false;
     }
@@ -289,7 +284,7 @@ public class SCR_DialogueManager : MonoBehaviour
     public void NextLine()
     {
         if (!isDialogueActive || currentDialogue == null)
-        return;
+            return;
 
         if (isTyping)
         {
@@ -299,8 +294,7 @@ public class SCR_DialogueManager : MonoBehaviour
 
         currentLineIndex++;
 
-        if (currentLineIndex <
-        currentDialogue.DialogueLines.Length)
+        if (currentLineIndex < currentDialogue.DialogueLines.Length)
         {
             DisplayCurrentLine();
         }
@@ -311,9 +305,13 @@ public class SCR_DialogueManager : MonoBehaviour
     }
 
 
-    // END DIALOGUE
+    // END DIALOGUE (starts the chained dialogue if one is assigned)
     public void EndDialogue()
     {
+        // Grab the next dialogue BEFORE currentDialogue is cleared.
+        SCR_DialogueData next =
+            currentDialogue != null ? currentDialogue.NextDialogue : null;
+
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
@@ -326,6 +324,10 @@ public class SCR_DialogueManager : MonoBehaviour
         currentDialogue = null;
 
         if (dialogueBox != null)
-        dialogueBox.SetActive(false);
+            dialogueBox.SetActive(false);
+
+        // If a follow-up dialogue is assigned, start it right away.
+        if (next != null)
+            StartDialogue(next);
     }
 }
