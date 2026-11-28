@@ -3686,7 +3686,7 @@ MonoBehaviour:
   delayBeforeFade: 0.6
   fadeImage: {fileID: 1617976083}
   fadeDuration: 1.5
-  nextSceneName: 
+  nextSceneName: SCENE1.SQ6
   npcAnimator: {fileID: 0}
   isMovingBool: isMoving
   moveXFloat: MoveX

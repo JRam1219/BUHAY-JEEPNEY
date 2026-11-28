@@ -110,6 +110,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MayorHouse/SCENE7.SQ6.unity
     guid: e43b58ab15239a045a626465977032a9
+  - enabled: 1
+    path: Assets/SQ7.unity
+    guid: 06d744e6a95893649ab60e72d09712a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

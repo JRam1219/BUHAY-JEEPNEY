@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "BUHAY-JEEPNEY.slnx"
+    "dotnet.defaultSolution": "BUHAY JEEPNEY.slnx"
 }
