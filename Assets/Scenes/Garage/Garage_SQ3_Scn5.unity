@@ -399,9 +399,11 @@ MonoBehaviour:
   - speakerName: '[NARRATOR]'
     text: Your jeepney is ready for the morning route. Would you like to get in and
       head out?
+    showChoices: 0
   - speakerName: JEFF
     text: Yes. Let's stop by the gas station first to top up on diesel.
-  nextSceneName: GasStation_SQ1
+    showChoices: 0
+  nextSceneName: Store_SQ3
 --- !u!4 &528706202
 Transform:
   m_ObjectHideFlags: 0
@@ -436,6 +438,10 @@ MonoBehaviour:
   showRange: 20
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &564612190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1913358289745593479, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}

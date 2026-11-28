@@ -559,6 +559,10 @@ MonoBehaviour:
   showRange: 3
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &352814761
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +749,7 @@ MonoBehaviour:
   endText: {fileID: 0}
   endTextFadeTime: 1.5
   endTextHoldTime: 3
-  nextSceneName: House_SQ4
+  nextSceneName: House_SQ3
 --- !u!114 &401572189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -764,6 +768,10 @@ MonoBehaviour:
   showRange: 50
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!4 &401572190
 Transform:
   m_ObjectHideFlags: 0

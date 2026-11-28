@@ -3118,8 +3118,10 @@ MonoBehaviour:
   - speakerName: JEFF
     text: Sardines, a few packs of noodles, and two cans of corned beef. Not much,
       but at least we won't go to sleep hungry.
+    showChoices: 0
   - speakerName: '[NARRATOR]'
     text: "You spent \u20B1350 on canned goods and noodles. Money left: \u20B1700."
+    showChoices: 0
   alreadyBoughtDialogue: []
 --- !u!61 &759088240
 BoxCollider2D:
@@ -3185,6 +3187,10 @@ MonoBehaviour:
   showRange: 4
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &763310446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3838,12 +3844,15 @@ MonoBehaviour:
   - speakerName: JEFF
     text: Cooking oil, salt, soy sauce, and a few sachets of coffee... everything
       just keeps getting more expensive.
+    showChoices: 0
   - speakerName: '[NARRATOR]'
     text: "You spent \u20B1250 on cooking essentials. Total spent: \u20B11,600. You
       only have \u20B1100 left in your pocket."
+    showChoices: 0
   - speakerName: JEFF
     text: A whole day of driving, and only a hundred pesos left... I hope this is
       enough to get us through the next three days. Better head home to Emma.
+    showChoices: 0
   alreadyBoughtDialogue: []
 --- !u!61 &1050576501
 BoxCollider2D:
@@ -3968,6 +3977,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1091887047
 GameObject:
   m_ObjectHideFlags: 0
@@ -5011,8 +5024,10 @@ MonoBehaviour:
   - speakerName: JEFF
     text: Ten kilos of the cheapest rice. If we ration it right, this should last
       us three days.
+    showChoices: 0
   - speakerName: '[NARRATOR] |'
     text: "You spent \u20B1650 on rice. Money left: \u20B11,050."
+    showChoices: 0
   alreadyBoughtDialogue: []
 --- !u!114 &1380350421
 MonoBehaviour:
@@ -5032,6 +5047,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1384661293
 GameObject:
   m_ObjectHideFlags: 0
@@ -6253,7 +6272,8 @@ MonoBehaviour:
   reminderDialogue:
   - speakerName: JEFF
     text: I still need to grab the rest of the groceries before heading home.
-  nextSceneName: House_SQ2
+    showChoices: 0
+  nextSceneName: House_SQ4
 --- !u!61 &1817013067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6334,6 +6354,10 @@ MonoBehaviour:
   showRange: 10
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1843189153
 GameObject:
   m_ObjectHideFlags: 0
@@ -7397,8 +7421,10 @@ MonoBehaviour:
   - speakerName: JEFF
     text: Half a tray of eggs and some vegetables for soup. Emma knows how to stretch
       these for days.
+    showChoices: 0
   - speakerName: '[NARRATOR]'
     text: "You spent \u20B1350 on eggs and vegetables. Money left: \u20B1350."
+    showChoices: 0
   alreadyBoughtDialogue: []
 --- !u!61 &2134117888
 BoxCollider2D:
@@ -7523,6 +7549,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!114 &2134117891
 MonoBehaviour:
   m_ObjectHideFlags: 0

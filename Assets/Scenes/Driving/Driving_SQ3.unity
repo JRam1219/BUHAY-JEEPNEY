@@ -502,8 +502,11 @@ MonoBehaviour:
   passengerDialogue:
   - speakerName: STUDENT
     text: Para po! Bayad po, estudyante, UMak lang po.
+    showChoices: 0
   - speakerName: JEFF
     text: Sige, sakay na! Medyo bilisan. Salamat!
+    showChoices: 0
+  fareReward: 0
 --- !u!212 &828421994
 SpriteRenderer:
   serializedVersion: 2
@@ -597,6 +600,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &845942079
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,8 +869,11 @@ MonoBehaviour:
   passengerDialogue:
   - speakerName: NURSE
     text: Kuya, sa Ospital lang po ako ng Makati. Salamat!
+    showChoices: 0
   - speakerName: JEFF
     text: Sakay na po, Ma'am. Baka ma-late ka pa.
+    showChoices: 0
+  fareReward: 0
 --- !u!212 &994305595
 SpriteRenderer:
   serializedVersion: 2
@@ -957,6 +967,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1068063735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,9 +1095,13 @@ MonoBehaviour:
   endOfRouteDialogue:
   - speakerName: '[NARRATOR]'
     text: "Mission Complete! You have earned \u20B12,500 for today's route."
+    showChoices: 0
   - speakerName: JEFF
     text: Salamat naman! That's enough for today. Time to head back.
-  nextSceneName: InsideGarage_SQ1
+    showChoices: 0
+  insufficientMoneyDialogue: []
+  nextSceneName: Garage_SQ3_Scn5
+  requireMoneyManager: 0
 --- !u!61 &1091147315
 BoxCollider2D:
   m_ObjectHideFlags: 0
