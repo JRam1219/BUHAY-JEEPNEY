@@ -1,7 +1,7 @@
 
 using UnityEngine;
-
-public class KardingMovement : MonoBehaviour
+using System.Collections;
+public class KardingAutoMovement : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform mayor;
@@ -16,7 +16,11 @@ public class KardingMovement : MonoBehaviour
     [SerializeField] private float walkOutDistance = 5f;
     public bool HasArrived { get; private set; }
 
+    [Header("Follow Jeff")]
+    [SerializeField] private float followDelay = 1f;
+    [SerializeField] private float followDistance = 0.5f;
 
+    private Coroutine followCoroutine;
 
     private bool isWalking;
 
@@ -66,8 +70,8 @@ public class KardingMovement : MonoBehaviour
 
         animator.SetBool("KardingIsWalkingBack", true);
 
-        walkOutTargetX = -2.3f;
-        walkOutTargetY = -3.8f;
+        walkOutTargetX = -0.4f;
+        walkOutTargetY = -0.095f;
     }
 
     public void WalkOut()
@@ -81,6 +85,49 @@ public class KardingMovement : MonoBehaviour
 
         walkOutTargetX = mayor.localPosition.x + (direction * walkOutDistance);
         walkOutTargetY = transform.localPosition.y;
+    }
+
+    public void FollowJeff()
+    {
+        if (followCoroutine != null)
+            return;
+
+        HasArrived = false;
+        isWalking = true;
+
+        animator.SetBool("KardingIsWalking", true);
+        animator.SetBool("KardingIsSideIdle", false);
+
+        followCoroutine = StartCoroutine(FollowJeffRoutine());
+    }
+
+    private IEnumerator FollowJeffRoutine()
+    {
+        while (true)
+        {
+            Vector2 jeffPosition = jeff.transform.localPosition;
+
+            float distance = Vector2.Distance(transform.localPosition, jeffPosition);
+
+            if (distance > followDistance)
+            {
+                walkOutTargetX = jeffPosition.x;
+                walkOutTargetY = jeffPosition.y;
+
+                isWalking = true;
+                animator.SetBool("KardingIsWalking", true);
+                animator.SetBool("KardingIsSideIdle", false);
+            }
+            else
+            {
+                isWalking = false;
+
+                animator.SetBool("KardingIsWalking", false);
+                animator.SetBool("KardingIsSideIdle", true);
+            }
+
+            yield return null;
+        }
     }
 
 
