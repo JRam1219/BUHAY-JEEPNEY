@@ -720,7 +720,7 @@ Transform:
   m_GameObject: {fileID: 217378156}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.043619405, w: 0.9990483}
-  m_LocalPosition: {x: -285.28, y: -157.03, z: -2}
+  m_LocalPosition: {x: -280.82, y: -154.45999, z: -2}
   m_LocalScale: {x: 2.8000002, y: 2.2000003, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -773,7 +773,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5748036336449662343, guid: 09cf4d4011b7254429eaa73754648971, type: 3}
   m_Color: {r: 1, g: 0.4764151, b: 0.898192, a: 1}
@@ -1297,7 +1297,7 @@ Transform:
   m_GameObject: {fileID: 835066702}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.043619405, w: 0.9990483}
-  m_LocalPosition: {x: -283.08, y: -158.53, z: -2}
+  m_LocalPosition: {x: -278.62, y: -155.95999, z: -2}
   m_LocalScale: {x: 2.8000002, y: 2.2000003, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1350,7 +1350,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8564722131902140602, guid: 09cf4d4011b7254429eaa73754648971, type: 3}
   m_Color: {r: 1, g: 0.98700446, b: 0.5330188, a: 1}
@@ -1505,7 +1505,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 2
   m_Sprite: {fileID: -1861944115266108415, guid: e8c674fe41718794e9933e50954e07b5, type: 3}
   m_Color: {r: 0.3809097, g: 0.13683696, b: 0.38679248, a: 1}
@@ -1526,7 +1526,7 @@ Transform:
   m_GameObject: {fileID: 927413145}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -283.51, y: -159.52, z: 0}
+  m_LocalPosition: {x: -279.05002, y: -156.95, z: 0}
   m_LocalScale: {x: 2.80002, y: 2.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1968,7 +1968,7 @@ Transform:
   m_GameObject: {fileID: 1228518987}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -283.52, y: -159.55, z: 0}
+  m_LocalPosition: {x: -279.06, y: -156.98, z: 0}
   m_LocalScale: {x: 2.8, y: 2.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2597,6 +2597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cff0044553519d478b882c9eb701aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuNavigation
+  defaultStartScene: House_SQ1
 --- !u!4 &1969419450
 Transform:
   m_ObjectHideFlags: 0
