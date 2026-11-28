@@ -397,11 +397,11 @@ MonoBehaviour:
   interactRange: 4
   conversationLines:
   - speakerName: '[NARRATOR]'
-    text: Your jeepney is ready for the morning route. Would you like to get in and
-      head out?
+    text: Handa na ang jeep mo para sa biyahe ngayong umaga. Gusto mo na bang sumakay
+      at umalis?
     showChoices: 0
   - speakerName: JEFF
-    text: Yes. Let's stop by the gas station first to top up on diesel.
+    text: Oo. Dumaan muna tayo sa gasolinahan para magpakarga ng diesel.
     showChoices: 0
   nextSceneName: GasStation_SQ4
 --- !u!4 &528706202
@@ -438,6 +438,10 @@ MonoBehaviour:
   showRange: 4
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &564612190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1913358289745593479, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}

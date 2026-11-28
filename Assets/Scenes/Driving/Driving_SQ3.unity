@@ -1094,7 +1094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RoadEndTrigger
   endOfRouteDialogue:
   - speakerName: '[NARRATOR]'
-    text: "Mission Complete! You have earned \u20B12,500 for today's route."
+    text: "Tapos na ang Misyon! Kumita ka ng \u20B12,500 sa biyahe mo ngayong araw."
     showChoices: 0
   - speakerName: JEFF
     text: Salamat naman! That's enough for today. Time to head back.

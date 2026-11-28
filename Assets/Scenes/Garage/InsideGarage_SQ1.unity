@@ -565,7 +565,8 @@ MonoBehaviour:
   desk: {fileID: 938929609}
   reminderDialogue:
   - speakerName: JEFF
-    text: I need to pay the boundary and sign out at the desk first.
+    text: Kailangan ko munang magbayad ng boundary at mag-sign out sa desk.
+    showChoices: 0
   nextSceneName: Store_SQ1
 --- !u!61 &680599080
 BoxCollider2D:
@@ -647,6 +648,10 @@ MonoBehaviour:
   showRange: 20
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &697108368
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,19 +784,24 @@ MonoBehaviour:
   interactRange: 5
   payBoundaryDialogue:
   - speakerName: JEFF
-    text: "Here's the \u20B1800 boundary for today."
+    text: "Heto na 'yung \u20B1800 na boundary para ngayong araw."
+    showChoices: 0
   - speakerName: '[NARRATOR]'
-    text: "You paid the \u20B1800 boundary. From your \u20B12,500 earnings, you now
-      have \u20B11,700 left."
+    text: "Binayaran mo ang \u20B1800 na boundary. Mula sa \u20B12,500 na kita mo,
+      \u20B11,700 na lang ang natitira sa'yo."
+    showChoices: 0
   signOutDialogue:
   - speakerName: '[NARRATOR]'
-    text: You signed out on the logbook. Your shift is officially over!
+    text: Nag-sign out ka na sa logbook. Opisyal nang tapos ang shift mo!
+    showChoices: 0
   - speakerName: JEFF
-    text: "I still have \u20B11,700 left. I need to buy the food and groceries Emma
-      asked for before heading home."
+    text: "May \u20B11,700 pa akong natitira. Kailangan ko pang bilhin ang pagkain
+      at mga grocery na ipinabili ni Emma bago umuwi."
+    showChoices: 0
   afterSignOutDialogue:
   - speakerName: JEFF
-    text: Already signed out. Time to head to the store.
+    text: Nakapag-sign out na. Oras na para pumunta sa tindahan.
+    showChoices: 0
   hasPaidBoundary: 0
   hasSignedOut: 0
 --- !u!114 &938929610
@@ -812,6 +822,10 @@ MonoBehaviour:
   showRange: 15
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1001 &969096365
 PrefabInstance:
   m_ObjectHideFlags: 0

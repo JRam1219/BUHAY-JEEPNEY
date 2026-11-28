@@ -307,29 +307,29 @@ MonoBehaviour:
   interactRange: 4.5
   refuelDialogue:
   - speakerName: ATTENDANT
-    text: Goodmorning Bossing!! Full tank?
+    text: Magandang umaga, Bossing!! Full tank?
     showChoices: 0
   - speakerName: JEFF
-    text: Yes, please. Full tank Diesel.
+    text: Oo, sige. Full tank na Diesel.
     showChoices: 0
   - speakerName: ATTENDANT
-    text: Heads up, Boss. Diesel's up again.
+    text: Heads up lang, Boss. Tumaas na naman ang diesel.
     showChoices: 0
   - speakerName: JEFF
-    text: Again?! That's the third hike this month.
+    text: Na naman?! Pang-apat na taas-presyo na 'yan ngayong buwan.
     showChoices: 0
   - speakerName: ATTENDANT
-    text: Everyone's complaining. Same price at every station around here.
+    text: Lahat nagrereklamo. Pare-pareho ang presyo sa bawat gasolinahan dito.
     showChoices: 0
   - speakerName: JEFF
-    text: ...Full tank anyway.
+    text: Sige i-full tank mo na.
     showChoices: 0
   - speakerName: '[NARRATOR]'
-    text: Glug, glug...  Glug, glug... Jeepney's diesel tank is now full.
+    text: Glug, glug... Glug, glug... Puno na ang tangke ng diesel ng jeepney.
     showChoices: 0
   afterRefuelDialogue:
   - speakerName: ATTENDANT
-    text: You're already full, Boss. Ingat sa biyahe!
+    text: Puno ka na, Boss. Ingat sa biyahe!
     showChoices: 0
   refuelDuration: 6
   hasRefueled: 0
@@ -397,6 +397,10 @@ MonoBehaviour:
   showRange: 3
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!114 &1020078464 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5060470815590278761, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}

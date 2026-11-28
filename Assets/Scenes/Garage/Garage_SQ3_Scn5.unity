@@ -397,11 +397,11 @@ MonoBehaviour:
   interactRange: 3
   conversationLines:
   - speakerName: '[NARRATOR]'
-    text: Your jeepney is ready for the morning route. Would you like to get in and
-      head out?
+    text: Handa na ang jeep mo para sa biyahe ngayong umaga. Gusto mo na bang sumakay
+      at umalis?
     showChoices: 0
   - speakerName: JEFF
-    text: Yes. Let's stop by the gas station first to top up on diesel.
+    text: Oo. Dumaan muna tayo sa gasolinahan para magpakarga ng diesel.
     showChoices: 0
   nextSceneName: Store_SQ3
 --- !u!4 &528706202

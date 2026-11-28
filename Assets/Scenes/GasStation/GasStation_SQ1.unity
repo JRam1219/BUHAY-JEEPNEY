@@ -307,16 +307,23 @@ MonoBehaviour:
   interactRange: 4.5
   refuelDialogue:
   - speakerName: ATTENDANT
-    text: Good morning, Boss! Full tank of diesel?
+    text: Magandang umaga, Boss! Full tank ng diesel?
+    showChoices: 0
   - speakerName: JEFF
-    text: Yes, please. Need enough for the whole morning route.
+    text: Yes, please. Need enough for the whole Oo, sige. Kailangan ko ng sapat
+      para sa buong biyahe ngayong umaga.morning route.
+    showChoices: 0
   - speakerName: '[NARRATOR]'
-    text: Glug, glug... Your jeepney's diesel tank is now full.
+    text: Glug, glug... Puno na ang tangke ng diesel ng jeep mo.
+    showChoices: 0
   - speakerName: ATTENDANT
-    text: 'All set, Boss! '
+    text: 'All set na Boss! '
+    showChoices: 0
   afterRefuelDialogue:
   - speakerName: ATTENDANT
-    text: You're already full, Boss. Ingat sa biyahe!
+    text: Puno ka na, Boss. Ingat sa biyahe!
+    showChoices: 0
+  refuelDuration: 60
   hasRefueled: 0
 --- !u!61 &563809568
 BoxCollider2D:
@@ -382,6 +389,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1001 &825934774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -586,6 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneExitTrigger
   nextSceneName: Driving_SQ1
+  gasAttendant: {fileID: 0}
 --- !u!4 &1553556939
 Transform:
   m_ObjectHideFlags: 0

@@ -609,7 +609,7 @@ MonoBehaviour:
   desk: {fileID: 938929609}
   reminderDialogue:
   - speakerName: JEFF
-    text: I need to pay the boundary and sign out at the desk first.
+    text: Kailangan ko munang magbayad ng boundary at mag-sign out sa desk.
     showChoices: 0
   nextSceneName: House_SQ4_Ending
 --- !u!61 &680599080
@@ -805,19 +805,19 @@ MonoBehaviour:
   interactRange: 4
   payBoundaryDialogue:
   - speakerName: JEFF
-    text: "Here's the \u20B1800 boundary for today."
+    text: "Heto na 'yung \u20B1800 na boundary para ngayong araw."
     showChoices: 0
   - speakerName: '[NARRATOR]'
-    text: "You paid the \u20B1800 boundary. From your \u20B12,700 earnings, you now
-      have \u20B11,900 left."
+    text: "Binayaran mo ang \u20B1800 na boundary. Mula sa \u20B12,700 na kita mo,
+      \u20B11,900 na lang ang natitira sa'yo."
     showChoices: 0
   signOutDialogue:
   - speakerName: '[NARRATOR]'
-    text: You signed out on the logbook. Your shift is officially over!
+    text: Nag-sign out ka na sa logbook. Opisyal nang tapos ang shift mo!
     showChoices: 0
   afterSignOutDialogue:
   - speakerName: JEFF
-    text: Already signed out. Time to head to the Home.
+    text: Nakapag-sign out na. Oras na para umuwi sa bahay.
     showChoices: 0
   hasPaidBoundary: 0
   hasSignedOut: 0
@@ -839,6 +839,10 @@ MonoBehaviour:
   showRange: 4
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1001 &1059984765
 PrefabInstance:
   m_ObjectHideFlags: 0

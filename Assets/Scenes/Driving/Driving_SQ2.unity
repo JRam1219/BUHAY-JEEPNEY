@@ -506,14 +506,19 @@ MonoBehaviour:
   passengerDialogue:
   - speakerName: STUDENT
     text: UMak lang po. Manong, napansin mo ba? Ang mahal na naman ng gasolina ngayon!
+    showChoices: 0
   - speakerName: JEFF
     text: Oo nga eh! Pataas ng pataas.
+    showChoices: 0
   - speakerName: STUDENT
     text: Kasi hawak na raw ng mayor halos lahat ng gasolinahan dito sa atin. Wala
       nang ibang mapagpipilian ang mga tao.
+    showChoices: 0
   - speakerName: JEFF
     text: Shhhh... Wag ka mag-sasabe ng ganyan sa publiko. Maraming tenga at mata
       ang mayor natin. Sige na sakay kana madami pang bakanteng upuan.
+    showChoices: 0
+  fareReward: 0
 --- !u!212 &828421994
 SpriteRenderer:
   serializedVersion: 2
@@ -607,6 +612,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &994305593
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,8 +652,11 @@ MonoBehaviour:
   passengerDialogue:
   - speakerName: NURSE
     text: Manong Osmak po. Paabot bayad!
+    showChoices: 0
   - speakerName: JEFF
     text: Sakay na po, MISS.
+    showChoices: 0
+  fareReward: 0
 --- !u!212 &994305595
 SpriteRenderer:
   serializedVersion: 2
@@ -738,6 +750,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1091147313
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,12 +786,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RoadEndTrigger
   endOfRouteDialogue:
   - speakerName: '[NARRATOR]'
-    text: "Mission Complete! Earn \u20B12,700 before the end of the day. Save \u20B1200
-      for Marielle's school project."
+    text: "Tapos na ang Misyon! Kumita tayo ng \u20B12,700 bago matapos ang araw.
+      Magtabi ng \u20B1200 para sa school project ni Marielle."
+    showChoices: 0
   - speakerName: JEFF
     text: Ampagod! Kailangan konang umuwi para sa pamilya ko! Para din mabigay itong
       200 para sa project ni Marielle
+    showChoices: 0
+  insufficientMoneyDialogue: []
   nextSceneName: InsideGarage_SQ2
+  requireMoneyManager: 0
 --- !u!61 &1091147315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -971,8 +991,11 @@ MonoBehaviour:
   passengerDialogue:
   - speakerName: POLICE
     text: LTO lang po!!
+    showChoices: 0
   - speakerName: JEFF
     text: Ito po driver's license ko.
+    showChoices: 0
+  fareReward: 0
 --- !u!114 &1200356361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,6 +1014,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1001 &1474037562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1451,8 +1478,11 @@ MonoBehaviour:
   passengerDialogue:
   - speakerName: MANONG
     text: 'Sa may Market Market lang!! '
+    showChoices: 0
   - speakerName: JEFF
     text: Kasya pa dyan tatlo sa kanan!
+    showChoices: 0
+  fareReward: 0
 --- !u!114 &2013214137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1471,6 +1501,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &2085825426
 GameObject:
   m_ObjectHideFlags: 0

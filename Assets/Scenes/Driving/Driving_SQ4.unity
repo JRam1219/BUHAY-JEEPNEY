@@ -757,6 +757,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &994305593
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +895,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1091147313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1165,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1001 &1474037562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1475,7 +1487,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1530655610700847232, guid: 81a37b527963aae4dbd32debddb8852f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1542,6 +1554,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!114 &1728992386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,6 +1833,10 @@ MonoBehaviour:
   showRange: 4.5
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &2069637687
 GameObject:
   m_ObjectHideFlags: 0

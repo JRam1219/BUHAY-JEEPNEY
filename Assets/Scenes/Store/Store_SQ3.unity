@@ -6271,7 +6271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StoreExitTrigger
   reminderDialogue:
   - speakerName: JEFF
-    text: I still need to grab the rest of the groceries before heading home.
+    text: Kailangan ko pa ring kunin ang natitirang groceries bago umuwi.
     showChoices: 0
   nextSceneName: House_SQ4
 --- !u!61 &1817013067
