@@ -2680,7 +2680,7 @@ MonoBehaviour:
   targetSpawnPoint: {fileID: 0}
   cameraToDisable: {fileID: 0}
   cameraToEnable: {fileID: 0}
-  targetSceneName: SQ7
+  targetSceneName: MayorBodegaScene
   blackFadePanel: {fileID: 0}
   fadeDuration: 0.5
 --- !u!61 &2115874208
