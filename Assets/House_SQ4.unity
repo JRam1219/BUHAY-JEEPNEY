@@ -1367,6 +1367,10 @@ MonoBehaviour:
   showRange: 3
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!114 &833920824 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5060470815590278761, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}
@@ -1700,6 +1704,10 @@ MonoBehaviour:
   showRange: 100
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1088614172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2564,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!114 &2046414541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2632,7 +2644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
       propertyPath: tvNewsLines.Array.data[0].text
-      value: '[Wokes up...]'
+      value: '[Nagising si Jeff...]'
       objectReference: {fileID: 0}
     - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
       propertyPath: tvNewsLines.Array.data[1].text

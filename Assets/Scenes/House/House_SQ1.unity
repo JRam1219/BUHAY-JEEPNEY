@@ -1157,19 +1157,24 @@ MonoBehaviour:
   interactRange: 4
   conversationLines:
   - speakerName: JEFF
-    text: Good morning, love. Have you been up long?
+    text: Magandang umaga, mahal. Kanina ka pa ba gising?
+    showChoices: 0
   - speakerName: EMMA
-    text: Good morning, Jeff. Yeah, I'm making breakfast. Did you hear the news?
-      Diesel prices went up again.
+    text: Magandang umaga, Jeff. Oo, nagluluto ako ng almusal. Narinig mo ba 'yung
+      balita? Tumaas na naman ang presyo ng diesel.
+    showChoices: 0
   - speakerName: JEFF
-    text: I heard. It's getting really tough. Almost everything I earn goes straight
-      to fuel and the boundary fee.
+    text: Narinig ko nga. Ang hirap na talaga. Halos lahat ng kinikita ko, napupunta
+      lang sa krudo at boundary.
+    showChoices: 0
   - speakerName: EMMA
-    text: Even rice and groceries at the market are getting pricier. We'll get through
-      this, okay? Just stay safe on the road.
+    text: Pati bigas at mga bilihin sa palengke, nagmamahal na rin. Malalampasan
+      din natin 'to, ha? Basta mag-iingat ka lang sa biyahe.
+    showChoices: 0
   - speakerName: JEFF
-    text: I will. I'm heading out now so I can get a good spot in line at the terminal.
-      Take care here.
+    text: Sige, mag-iingat ako. Aalis na ako para makakuha ng magandang puwesto sa
+      pila sa terminal. Mag-ingat kayo rito.
+    showChoices: 0
 --- !u!114 &750256341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1188,6 +1193,10 @@ MonoBehaviour:
   showRange: 2
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!114 &833920824 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5060470815590278761, guid: 4b05bff1356d9d34ab31a3fadfb46a51, type: 3}
@@ -1400,6 +1409,10 @@ MonoBehaviour:
   showRange: 10
   bobHeight: 0.05
   bobSpeed: 4
+  saveSceneOnInteract: 0
+  saveOnlyOnce: 1
+  sequenceNumber: 1
+  sceneNameToSave: 
 --- !u!1 &1088614172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,6 +2030,40 @@ PrefabInstance:
     - target: {fileID: 4518125024084744761, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[0].text
+      value: Magandang umaga! Simula ngayong araw, magpapatupad na naman ng panibagong
+        malakihang dagdag-presyo sa langis ang mga kumpanya ng petrolyo sa buong
+        bansa.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[1].text
+      value: Halos tatlong piso kada litro ang itinaas ng presyo ng diesel, na siyang
+        ikalimang sunod na linggo ng pagtaas ngayong buwan.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[2].text
+      value: Matinding nararamdaman ng mga jeepney driver at mga pangkaraniwang komyuter
+        ang bigat ng epekto nito habang patuloy na nagmamahal ang mga pangunahing
+        bilihin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[3].text
+      value: Haaay... tumaas na naman ang diesel. Kailangan kong maging masipag at
+        bumiyahe nang maaga.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[0].speakerName
+      value: '[TV - BALITA]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[1].speakerName
+      value: '[TV - BALITA]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
+      propertyPath: tvNewsLines.Array.data[2].speakerName
+      value: '[TV - BALITA]'
       objectReference: {fileID: 0}
     - target: {fileID: 8411682168975931631, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
       propertyPath: dialogueText

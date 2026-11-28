@@ -739,7 +739,7 @@ MonoBehaviour:
     text: Oras na para magpahinga. May panibagong araw na naman bukas.
     showChoices: 0
   - speakerName: "[NARRATOR]\t"
-    text: Jeff lies down and closes his eyes.
+    text: Humiga si Jeff at ipinikit ang kanyang mga mata.
     showChoices: 0
   sleepSpot: {fileID: 1213348586}
   walkSpeed: 2

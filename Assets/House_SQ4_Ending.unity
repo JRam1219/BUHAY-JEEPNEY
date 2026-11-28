@@ -1412,10 +1412,10 @@ MonoBehaviour:
   notTiredLines: []
   beforeSleepLines:
   - speakerName: JEFF
-    text: Oras na para magpahinga. May panibagong araw na naman bukas.
+    text: Kapagod. Pero kakayanin. Oras na magpahinga...
     showChoices: 0
   - speakerName: "[NARRATOR]\t"
-    text: Jeff lies down and closes his eyes.
+    text: Humiga si Jeff at ipinikit ang kanyang mga mata.
     showChoices: 0
   sleepSpot: {fileID: 1252199616}
   walkSpeed: 2
@@ -2747,7 +2747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
       propertyPath: tvNewsLines.Array.data[0].text
-      value: '[Wokes up...]'
+      value: '[Nagising si Jeff...]'
       objectReference: {fileID: 0}
     - target: {fileID: 4579030736598493163, guid: 51e08d1f8a7bdf943977914cbfc24a53, type: 3}
       propertyPath: tvNewsLines.Array.data[1].text

@@ -6551,6 +6551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7825599151252161033, guid: f21d16bcfa43ab94081fdd1b5899033c, type: 3}
+      propertyPath: m_text
+      value: Jeff, gising!! Hindi gumagalaw si Marielle!
+      objectReference: {fileID: 0}
     - target: {fileID: 8562885566728359178, guid: f21d16bcfa43ab94081fdd1b5899033c, type: 3}
       propertyPath: dialogueManager
       value: 
